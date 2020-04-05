@@ -11,6 +11,8 @@
 # production
 /build
 
+/src/Utils.js
+
 # misc
 .DS_Store
 .env.local
