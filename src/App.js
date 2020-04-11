@@ -42,6 +42,7 @@ const App = () => {
           Search
         </button>
       </form>
+      <div className="recipes">
       {recipes.map(recipe => (
         <Recipe key={recipe.recipe.label} 
                 title={recipe.recipe.label} 
@@ -49,6 +50,7 @@ const App = () => {
                 image={recipe.recipe.image}
                 ingredients={recipe.recipe.ingredients}/>
       ))}
+      </div>
     </div>
   );
 }
